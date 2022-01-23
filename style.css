@@ -90,6 +90,12 @@ section{
 
 .work_img{
     text-align: center;
+    margin: 30px 0px;
+}
+
+small{
+    font-size: 15px;
+    color: #0BE6C1;
 }
 
 
