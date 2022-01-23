@@ -4,19 +4,31 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 .nav-link{
-    color: #2b2b2b;
+    color: #2b2b2b !important;
     font-weight: 600;
     font-size: 15px;
 }
 .nav-link:hover{
-    color: #0BE6C1;
+    color: #0BE6C1 !important;
+}
+.active{
+    color: #0BE6C1 !important;
+}
+
+.navbar-toggler:hover{
+    border: 1px solid#0BE6C1 !important;
+    transform: scale(0.98);
+}
+#navbar-collapse-toggle{
+    text-align: center;
 }
 
 section{
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 50px;
 }
 .greeting{
@@ -26,6 +38,7 @@ section{
 }
 .contact-icon{
     margin: 0px 15px 0px 5px;
+    color: #2b2b2b;
 }
 .contact-icon:hover{
     color: #0BE6C1;
@@ -39,8 +52,20 @@ section{
     padding: 0px;
     margin-bottom: 30px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .project-title:hover{
     transform: scale(0.98);
     transition: 0.5s;
+}
+
+.contact-icon-footer{
+    margin: 0px 15px;
+    color: #fff;
+    padding: 0;
+}
+.contact-icon-footer:hover{
+    color: #2b2b2b;
 }
