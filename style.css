@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&family=Roboto:wght@100;300;400;700&display=swap');
+*{
+    font-family : 'Poppins', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-link{
+    color: #2b2b2b;
+    font-weight: 600;
+    font-size: 15px;
+}
+.nav-link:hover{
+    color: #0BE6C1;
+}
+
+section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.greeting{
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.contact-icon{
+    margin: 0px 15px 0px 5px;
+}
+.contact-icon:hover{
+    color: #0BE6C1;
+}
+
+.work-title{
+    font-weight: bold;
+}
+.project-title{
+    width: 48%;
+    padding: 0px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.project-title:hover{
+    transform: scale(0.98);
+    transition: 0.5s;
+}
