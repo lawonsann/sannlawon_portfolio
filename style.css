@@ -108,6 +108,14 @@ small{
     .project-title{
         width: 80% !important;
     }
+    .img_md_reverse{
+        display: flex !important;
+        align-items: center !important;
+        flex-direction: column-reverse !important;
+    }
+    .text_md_align{
+        flex-direction: column !important;
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -129,6 +137,12 @@ small{
     }
     .pj_demo_label{
         font-size: 15px !important;
+    }
+    .title_size{
+        font-size: 22px !important;
+    }
+    .body_size{
+        font-size: 13px !important;
     }
 }
 
