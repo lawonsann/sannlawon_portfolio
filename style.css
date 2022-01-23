@@ -38,10 +38,10 @@ section{
 }
 .contact-icon{
     margin: 0px 15px 0px 5px;
-    color: #2b2b2b;
+    color: #2b2b2b !important;
 }
 .contact-icon:hover{
-    color: #0BE6C1;
+    color: #0BE6C1 !important;
 }
 
 .work-title{
