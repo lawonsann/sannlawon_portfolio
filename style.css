@@ -63,9 +63,9 @@ section{
 
 .contact-icon-footer{
     margin: 0px 15px;
-    color: #fff;
+    color: #fff !important;
     padding: 0;
 }
 .contact-icon-footer:hover{
-    color: #2b2b2b;
-}
+    color: #2b2b2b !important;
+} 
